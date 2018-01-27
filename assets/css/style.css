@@ -35,3 +35,13 @@ h2 {
   background-color: #ffffff;
   text-align: center;
 }
+
+#footer {
+  background-color: #666666;
+  width: 960px;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  position: fixed;
+  text-align: center;
+}
