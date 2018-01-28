@@ -9,6 +9,7 @@ body {
   height: 75px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
+  align-content: center;
 }
 
 h2 {
@@ -26,6 +27,7 @@ h2 {
   width: 650px;
   float: left;
   background-color: #ffffff;
+  color: #777777;
 }
 
 #connect {
