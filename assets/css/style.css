@@ -1,8 +1,9 @@
 header {
-  /* top: 0%;
-  left: 0%; */
+  top: 0%;
+  /* left: 0%; */
   width: 100%;
   margin: 0 auto;
+  position: fixed;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   padding: 20px;
 }
 
-nav {
+.topnav {
   height: 60px;
   width: 100%;
   background-color: #ffffff;
@@ -20,9 +21,15 @@ nav {
   position: fixed;
   padding: 10px;
   top: 0%;
-  float: left;
-  border-bottom: #cccccc 3px solid;
+  left: 0;
+  float: right;
+  border-bottom: #cccccc 2px solid;
+  over
 } 
+
+.topnav a {
+  float: right;
+}
 
 h1 {
   background-color: #4aaaa5;
@@ -30,12 +37,13 @@ h1 {
   width: 200px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
-  padding: 20px;
+  padding: 22px;
   align-content: center;
   /* position: absolute; */
   position: relative;
   /* top: 0%; */
   left: 75px;
+  top: -20px;
   /* top: 0; */
   /* bottom: 0; */
 } 
@@ -44,6 +52,12 @@ h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5
 }
+
+/* .underline {
+  border-bottom: 1px solid #777777;
+  display: inline-block;
+  line-height: 50px;
+} */
 
 #Heading {
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -59,6 +73,8 @@ h2 {
   border: solid .5px;
   border-color: #dddddd;
   padding: 10px;
+  position: relative;
+  margin-top: 100px;
 }
 
 .mainphoto {
@@ -74,6 +90,8 @@ h2 {
   border-color: #dddddd;
   text-align: center;
   padding: 10px 0px 30px 0px;
+  position: relative;
+  margin-top: 100px;
 }
 
 #footer {
