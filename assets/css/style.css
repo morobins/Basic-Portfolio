@@ -4,14 +4,9 @@ body {
   align-content: center;
 }
 
-#header {
-  position: fixed;
-}
-
 ul {
   height: 60px;
   width: 100%;
-  padding: 10px 0px;
   background-color: #ffffff;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
@@ -21,10 +16,9 @@ ul {
 
 li {
   display: inline;
-  float: right;
 }
 
-h1 {
+#Name {
   background-color: #4aaaa5;
   color: #ffffff;
   width: 200px;
@@ -53,8 +47,6 @@ h2 {
   float: left;
   background-color: #ffffff;
   color: #777777;
-  position: relative;
-  top: 100px;
 }
 
 .mainphoto {
@@ -63,10 +55,7 @@ h2 {
 
 #connect {
   width: 270px;
-  padding: 10px 0px 30px 0px;
   float: right;
-  position: relative;
-  top: 100px;
   color: #4aaaa5;
   background-color: #ffffff;
   text-align: center;
